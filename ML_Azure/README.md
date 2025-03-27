@@ -48,12 +48,15 @@ automl_config = AutoMLConfig(
 ## **📂 Estrutura do Projeto**
 ```
 ├── azure/
-│   ├── automl_config.json       # Configurações do experimento
-│   └── scoring_script.py        # Código de inferência
+│   ├── automl_driver.py       # Configurações do experimento
+│   └── definition.json        # Código de inferência
+│   └── requirements.txt
 ├── notebooks/
 │   ├── 01_preprocessamento.ipynb
 └── docs/
     ├── modelo_explicado.md      # Interpretabilidade
+└── inputs/
+    ├── contexto_negocio.txt     
 ```
 
 ## **📈 Lições Aprendidas**
