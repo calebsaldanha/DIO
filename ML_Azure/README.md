@@ -1,6 +1,6 @@
 # **Projeto de Previsão de Vendas de Sorvete com AutoML** 🍦📊
 
-![Banner do Projeto](https://via.placeholder.com/800x300?text=Previsão+de+Vendas+com+Azure+AutoML)
+![Banner do Projeto](https://github.com/calebsaldanha/DIO/blob/93f92d9be03652209eb2c8d79d267ec5ebb58b68/ML_Azure/images/Captura%20de%20tela%202025-03-27%20064240.png)
 
 ## **📌 Visão Geral**
 Este projeto implementa um modelo preditivo para estimar vendas diárias de sorvete baseado em dados meteorológicos, utilizando Azure Machine Learning. O sistema auxilia na otimização de produção e redução de desperdícios.
@@ -8,7 +8,6 @@ Este projeto implementa um modelo preditivo para estimar vendas diárias de sorv
 ## **🔍 Processo de Desenvolvimento**
 
 ### **1. Configuração do Ambiente AutoML**
-![Configuração AutoML](https://via.placeholder.com/400x250?text=Configuração+AutoML+no+Azure+Studio)
 ```python
 automl_config = AutoMLConfig(
     task='regression',
@@ -20,13 +19,13 @@ automl_config = AutoMLConfig(
 ```
 
 ### **2. Treinamento Automatizado**
-![Treinamento em Andamento](https://via.placeholder.com/400x250?text=Execução+do+AutoML+no+Azure)
+![Treinamento em Andamento](https://github.com/calebsaldanha/DIO/blob/93f92d9be03652209eb2c8d79d267ec5ebb58b68/ML_Azure/images/Captura%20de%20tela%202025-03-27%20064005.png)
 - 20 iterações completadas em 45 minutos
 - Testou 7 algoritmos diferentes
 - Aplicou feature engineering automático
 
 ### **3. Resultados dos Modelos**
-![Leaderboard](https://via.placeholder.com/500x300?text=Comparação+de+Modelos)
+![Leaderboard](https://github.com/calebsaldanha/DIO/blob/93f92d9be03652209eb2c8d79d267ec5ebb58b68/ML_Azure/images/Captura%20de%20tela%202025-03-27%20070732.png)
 | Modelo | RMSE | R² Score |
 |--------|------|----------|
 | XGBoost | 4.21 | 0.91 |
@@ -36,18 +35,15 @@ automl_config = AutoMLConfig(
 ## **💡 Insights Principais**
 
 ### **Relação Temperatura-Vendas**
-![Gráfico de Dispersão](https://via.placeholder.com/400x250?text=Relação+Temperatura×Vendas)
+![Gráfico de Dispersão](https://github.com/calebsaldanha/DIO/blob/0fe736f1fdb02542bbe8c30eb93673d2d59fb2cc/ML_Azure/images/dispersao.png)
 - Cada 1°C aumenta ≈3.1 unidades vendidas
 - Vendas caem drasticamente abaixo de 15°C
 - Pico de vendas em temperaturas entre 28-32°C
 
 ### **Sazonalidade Detectada**
-![Sazonalidade](https://via.placeholder.com/400x250?text=Padrão+Sazonal+Anual)
 - Aumento de 35% nas vendas no verão
 - Quartas-feiras têm menor movimento
 - Finais de semana representam 45% das vendas semanais
-
-## **⚙️ Implementação**
 
 ## **📂 Estrutura do Projeto**
 ```
