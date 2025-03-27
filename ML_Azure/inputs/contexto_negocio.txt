@@ -1,0 +1,17 @@
+Projeto: Previsão de Vendas de Sorvete - Gelato Mágico
+
+Requisitos de Negócio:
+1. Prever vendas diárias com 3 dias de antecedência
+2. Margem de erro aceitável: ±10% 
+3. Principais variáveis consideradas:
+   - Temperatura máxima diária
+   - Dia da semana
+   - Feriados locais
+4. Saída desejada:
+   - Quantidade de sorvetes a produzir
+   - Intervalo de confiança das previsões
+
+Restrições Técnicas:
+- Processamento máximo: 1 hora/dia
+- Integração com sistema ERP existente
+- Modelo deve ser interpretável pela equipe
